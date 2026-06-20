@@ -3,7 +3,9 @@ pipeline {
     agent {
         label 'java-node'
     }
-
+      tools{
+		maven 'maven'
+	  }
     environment {
         IMAGE_NAME = 'rishikumar123456789/docker-test'
         IMAGE_TAG  = '1.0'
