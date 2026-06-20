@@ -7,7 +7,7 @@ pipeline {
 		maven 'maven'
 	  }
     environment {
-        IMAGE_NAME = 'rishikumar123456789/docker-test'
+        IMAGE_NAME = 'rishikumarandugala/docker-test'
         IMAGE_TAG  = '1.0'
     }
 
