@@ -13,7 +13,7 @@ pipeline {
 
         stage('Cloning Repository') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     credentialsId: 'github-credentials',
                     url: 'https://github.com/Rishikumar123456789/docker.git'
             }
